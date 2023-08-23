@@ -1,0 +1,28 @@
+// HEALTH
+GET http://localhost:9000/health
+
+###
+
+// GET STATS FOR STRIKER NAME
+GET http://localhost:9000/striker/Mario
+
+### 
+
+// GET BASE STAT TOTALS
+GET http://localhost:9000/stats/total
+
+### 
+
+// GET BALANCED STRIKERS
+GET http://localhost:9000/stats/even
+
+###
+
+// GET STRIKERS BY STAT PRIORITY
+
+POST http://localhost:9000/stats/prioritize
+Content-Type: application/json
+
+{
+    "stats": ["shooting"]
+}

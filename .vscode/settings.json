@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "strikers_data",
+            "password": "docker",
+            "username": "postgres",
+            "database": "strikers_data"
+        }
+    ]
+}
